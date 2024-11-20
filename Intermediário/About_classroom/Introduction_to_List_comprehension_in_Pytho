@@ -2,6 +2,9 @@
 # List comprehension é uma forma rápida para criar listas
 # a partir de iteráveis.
 # print(list(range(10)))
+
+import pprint
+
 lista = []
 for numero in range(10):
     lista.append(numero)
@@ -25,6 +28,5 @@ novos_produtos = [
    if produto['preço'] > 20 else {**produtos}
    for produto in produtos 
 ]
-
 print()
 print(*novos_produtos, sep='\n')
