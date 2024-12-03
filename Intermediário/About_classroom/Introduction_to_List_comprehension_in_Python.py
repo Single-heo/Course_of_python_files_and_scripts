@@ -26,7 +26,8 @@ new_products = [
    if product['preço'] > 10 # but only if the price is greater than 10 👈
 ]
 # print()
-p(new_products)
+p("New produtcs: ")
+p( new_products)
 
 listt = [n for n in range(10) if n < 5]
 p(listt)
